@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-custom {
+    background-image: url("../images/hhh.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-theme,
+.btn-theme {
+    background-color:#002446;
+}
+
+.text-theme {
+    color: #002446;
+}
+
+@media screen and (max-width: 600px) {
+   
+    img.profile-picture {
+        max-width: 200px;
+    }
+
+  }
